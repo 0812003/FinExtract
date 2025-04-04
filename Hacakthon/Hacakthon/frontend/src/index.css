@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.glass-box {
+    background: rgba(255, 255, 255, 0.2); /* Adjust opacity as needed */
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Adjust blur radius as needed */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    padding: 2rem; /* Adjust padding as needed */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Adjust border color as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    transition: all 0.3s ease; /* Optional: Add a transition for hover effect */
+  }
+  
+  .glass-box:hover {
+    background: rgba(255, 255, 255, 0.3); /* Adjust hover opacity as needed */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Adjust hover border color as needed */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Optional: Add a more prominent hover shadow */
+  }
+
+  /* HomePage.css */
+#scene {
+    width: 100%;
+    height: 100%;
+    perspective: 800px; /* Adjust perspective as needed */
+    pointer-events: none; /* Prevent scene from blocking clicks on content */
+  }
+  
+
+  
